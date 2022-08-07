@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Roboto+Mono:wght@300&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+    --primary-color: #803838;
+    --secondary-color: #b0abab;
+    --tertiary-color: #5c5c5c;
+}
+
+body {
+    background-color: var(--primary-color);
+    display: grid;
+     font-family: 'Roboto Mono', monospace;
+}
+
+a{
+    color:var(--tertiary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-color)
+    font-
+}
+
+header h1 {
+    color: var(--secondary-color);
+    font-family: 'Mouse Memoirs', sans-serif;
+    justify-self: center;
+}
+
+#foto{
+    border-radius: 120px;
+    border: 5px solid var(--tertiary-color);
+}
+
+.container , #repositorio{
+    margin: 15px;
+    padding: 10px;
+    align-self: center;
+    justify-content: center;
+    display: grid;
+}
+
+#hub_link{
+    color:azure;
+}
+
+main {
+    display: flexbox;
+    flex-direction: row;
+
+}
+
+#repositorio{
+    background-color: antiquewhite;
+}
